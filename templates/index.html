@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to Favour Express API Documentation</h1>
+    <p class="lead">This page provides an overview of the API and links to detailed documentation.</p>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card mb-4">
+            <div class="card-body">
+                <h2 class="card-title">Swagger Documentation</h2>
+                <p class="card-text">Interactive API documentation and playground.</p>
+                <a href="/swagger" class="btn btn-primary">View Swagger Docs</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card mb-4">
+            <div class="card-body">
+                <h2 class="card-title">ReDoc Documentation</h2>
+                <p class="card-text">Responsive, easy-to-read API reference.</p>
+                <a href="/redoc" class="btn btn-primary">View ReDoc Docs</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <h2 class="card-title">API Overview</h2>
+        <p class="card-text">Favour Express API provides endpoints for managing resources for the Cameroon transport industry (Favour Express) and will provide you with all available/Exposed resources that you (the developer) can access to interact with them. Use the links above to explore detailed documentation and interact with the API.</p>
+    </div>
+</div>
+{% endblock %}

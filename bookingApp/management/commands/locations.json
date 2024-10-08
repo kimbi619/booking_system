@@ -1,0 +1,18 @@
+{
+    "regions": [
+      {
+        "name": "Centre",
+        "cities": [
+          "Yaoundé"
+        ],
+        "abbr": "yde"
+      },
+      {
+        "name": "Littoral",
+        "cities": [
+          "Douala"
+        ],
+        "abbr": "dla"
+      }
+    ]
+  }

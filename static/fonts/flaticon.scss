@@ -1,0 +1,207 @@
+$flaticon_a-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon_a-font;
+    font-family: "flaticon";
+    src: url("../fonts/flaticon.eot");
+    src: url("../fonts/flaticon.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/flaticon.woff2") format("woff2"),
+    url("../fonts/flaticon.woff") format("woff"),
+    url("../fonts/flaticon.ttf") format("truetype"),
+    url("../fonts/flaticon.svg#Flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_a-map: (
+    "pin": "\f101",
+    "iphone": "\f102",
+    "phone-call": "\f103",
+    "mail": "\f104",
+    "envelope": "\f105",
+    "down": "\f106",
+    "next": "\f107",
+    "chevron": "\f108",
+    "right": "\f109",
+    "right-arrow": "\f10a",
+    "arrow-button": "\f10b",
+    "user": "\f10c",
+    "shopping-cart": "\f10d",
+    "shopping-bag": "\f10e",
+    "online-shopping": "\f10f",
+    "time": "\f110",
+    "profit": "\f111",
+    "email": "\f112",
+    "investment": "\f113",
+    "investment-1": "\f114",
+    "pie-chart": "\f115",
+    "talk": "\f116",
+    "trophy": "\f117",
+    "happy": "\f118",
+    "china": "\f119",
+    "budget": "\f11a",
+    "report": "\f11b",
+    "finance": "\f11c",
+    "targeted": "\f11d",
+    "target": "\f11e",
+    "financial-profit": "\f11f",
+    "piggy-bank": "\f120",
+    "graph": "\f121",
+    "light-bulb": "\f122",
+    "startup": "\f123",
+    "life-insurance": "\f124",
+    "travel-insurance": "\f125",
+    "protection": "\f126",
+    "insurance-agent": "\f127",
+    "healthcare": "\f128",
+    "motorbike": "\f129",
+    "ship": "\f12a",
+    "house": "\f12b",
+    "handshake": "\f12c",
+    "suitcase": "\f12d",
+);
+
+.flaticon-pin:before {
+    content: map-get($flaticon_a-map, "pin");
+}
+.flaticon-iphone:before {
+    content: map-get($flaticon_a-map, "iphone");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon_a-map, "phone-call");
+}
+.flaticon-mail:before {
+    content: map-get($flaticon_a-map, "mail");
+}
+.flaticon-envelope:before {
+    content: map-get($flaticon_a-map, "envelope");
+}
+.flaticon-down:before {
+    content: map-get($flaticon_a-map, "down");
+}
+.flaticon-next:before {
+    content: map-get($flaticon_a-map, "next");
+}
+.flaticon-chevron:before {
+    content: map-get($flaticon_a-map, "chevron");
+}
+.flaticon-right:before {
+    content: map-get($flaticon_a-map, "right");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon_a-map, "right-arrow");
+}
+.flaticon-arrow-button:before {
+    content: map-get($flaticon_a-map, "arrow-button");
+}
+.flaticon-user:before {
+    content: map-get($flaticon_a-map, "user");
+}
+.flaticon-shopping-cart:before {
+    content: map-get($flaticon_a-map, "shopping-cart");
+}
+.flaticon-shopping-bag:before {
+    content: map-get($flaticon_a-map, "shopping-bag");
+}
+.flaticon-online-shopping:before {
+    content: map-get($flaticon_a-map, "online-shopping");
+}
+.flaticon-time:before {
+    content: map-get($flaticon_a-map, "time");
+}
+.flaticon-profit:before {
+    content: map-get($flaticon_a-map, "profit");
+}
+.flaticon-email:before {
+    content: map-get($flaticon_a-map, "email");
+}
+.flaticon-investment:before {
+    content: map-get($flaticon_a-map, "investment");
+}
+.flaticon-investment-1:before {
+    content: map-get($flaticon_a-map, "investment-1");
+}
+.flaticon-pie-chart:before {
+    content: map-get($flaticon_a-map, "pie-chart");
+}
+.flaticon-talk:before {
+    content: map-get($flaticon_a-map, "talk");
+}
+.flaticon-trophy:before {
+    content: map-get($flaticon_a-map, "trophy");
+}
+.flaticon-happy:before {
+    content: map-get($flaticon_a-map, "happy");
+}
+.flaticon-china:before {
+    content: map-get($flaticon_a-map, "china");
+}
+.flaticon-budget:before {
+    content: map-get($flaticon_a-map, "budget");
+}
+.flaticon-report:before {
+    content: map-get($flaticon_a-map, "report");
+}
+.flaticon-finance:before {
+    content: map-get($flaticon_a-map, "finance");
+}
+.flaticon-targeted:before {
+    content: map-get($flaticon_a-map, "targeted");
+}
+.flaticon-target:before {
+    content: map-get($flaticon_a-map, "target");
+}
+.flaticon-financial-profit:before {
+    content: map-get($flaticon_a-map, "financial-profit");
+}
+.flaticon-piggy-bank:before {
+    content: map-get($flaticon_a-map, "piggy-bank");
+}
+.flaticon-graph:before {
+    content: map-get($flaticon_a-map, "graph");
+}
+.flaticon-light-bulb:before {
+    content: map-get($flaticon_a-map, "light-bulb");
+}
+.flaticon-startup:before {
+    content: map-get($flaticon_a-map, "startup");
+}
+.flaticon-life-insurance:before {
+    content: map-get($flaticon_a-map, "life-insurance");
+}
+.flaticon-travel-insurance:before {
+    content: map-get($flaticon_a-map, "travel-insurance");
+}
+.flaticon-protection:before {
+    content: map-get($flaticon_a-map, "protection");
+}
+.flaticon-insurance-agent:before {
+    content: map-get($flaticon_a-map, "insurance-agent");
+}
+.flaticon-healthcare:before {
+    content: map-get($flaticon_a-map, "healthcare");
+}
+.flaticon-motorbike:before {
+    content: map-get($flaticon_a-map, "motorbike");
+}
+.flaticon-ship:before {
+    content: map-get($flaticon_a-map, "ship");
+}
+.flaticon-house:before {
+    content: map-get($flaticon_a-map, "house");
+}
+.flaticon-handshake:before {
+    content: map-get($flaticon_a-map, "handshake");
+}
+.flaticon-suitcase:before {
+    content: map-get($flaticon_a-map, "suitcase");
+}

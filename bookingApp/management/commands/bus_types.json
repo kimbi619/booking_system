@@ -1,0 +1,24 @@
+{
+  "bus_types": [
+    {
+      "name": "Standard",
+      "capacity": 70
+    },
+    {
+      "name": "VIP",
+      "capacity": 60
+    },
+    {
+      "name": "Thirty seater",
+      "capacity": 30
+    },
+    {
+      "name": "Van",
+      "capacity": 20
+    },
+    {
+      "name": "Mini bus",
+      "capacity": 15
+    }
+  ]
+}

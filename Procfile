@@ -1,0 +1,1 @@
+web: gunicorn FavourExpressAPI.wsgi --log-file -
